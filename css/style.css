@@ -33,6 +33,7 @@ html , body {
     align-items: center;
 }
 
+
 .landing h1{
     font-size: 50px;
 }
@@ -45,8 +46,6 @@ html , body {
     font-size: 50px;
     display: flex;
     justify-content: center;
-    padding-bottom: 40px;
-   
 }
 
 .countdown div{
@@ -84,11 +83,19 @@ html , body {
    }
    .countdown{
        font-size: 30px;
+       display: flex;
        flex-direction: column;
-       width:70%;
+       width:100%;
        overflow: visible; 
-       padding: 10px;;
-       margin: auto;
+       padding: 10px;
+       align-items: center;
+   }
+
+   .countdown div{
+       width:150px;
+       height:75px;
+       padding: 0;
+       margin: 3px;
    }
 }
 
